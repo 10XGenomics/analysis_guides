@@ -1,6 +1,6 @@
 # Analysis Guides - 10x Genomics
 
-Analysis of 10x Genomics data is full of possibilities. Here is a collection of introductions, tutorials, and blogs for data analysis beyond software developed by 10x Genomics. We hope these guides help you navigate your exciting analysis journey.
+Analysis of 10x Genomics data is full of possibilities. Here is a collection of data analysis notebooks available for tutorials. We hope these guides help you navigate your exciting analysis journey.
 
 https://www.10xgenomics.com/resources/analysis-guides
 
