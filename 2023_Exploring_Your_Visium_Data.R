@@ -20,10 +20,10 @@ library(STdeconvolve)
 
 ## In this section we download the required input files for the analysis from the 10x Genomics Analysis Guides GitHub repository.
 
-download.file("https://raw.githubusercontent.com/10XGenomics/analysis_guides/main/input_files/VisiumFFPE_Mouse_Brain_Transgenic_Age_17p9_Rep_1.h5", "VisiumFFPE_Mouse_Brain_Transgenic_Age_17p9_Rep_1.h5")
-download.file("https://raw.githubusercontent.com/10XGenomics/analysis_guides/main/input_files/astro_markers.csv","astro_markers.csv")
-download.file("https://raw.githubusercontent.com/10XGenomics/analysis_guides/main/input_files/spatial_cord_subset_17p9_rep1.csv", "spatial_cord_subset_17p9_rep1.csv")
-download.file("https://raw.githubusercontent.com/10XGenomics/analysis_guides/main/input_files/optlDA.17p9_rep1_astrogenes.rds","optlDA.17p9_rep1_astrogenes.rds")
+download.file("https://raw.githubusercontent.com/10XGenomics/analysis_guides/main/2023_Exploring_Your_Visium_Data_input_files/VisiumFFPE_Mouse_Brain_Transgenic_Age_17p9_Rep_1.h5", "VisiumFFPE_Mouse_Brain_Transgenic_Age_17p9_Rep_1.h5")
+download.file("https://raw.githubusercontent.com/10XGenomics/analysis_guides/main/2023_Exploring_Your_Visium_Data_input_files/astro_markers.csv","astro_markers.csv")
+download.file("https://raw.githubusercontent.com/10XGenomics/analysis_guides/main/2023_Exploring_Your_Visium_Data_input_files/spatial_cord_subset_17p9_rep1.csv", "spatial_cord_subset_17p9_rep1.csv")
+download.file("https://raw.githubusercontent.com/10XGenomics/analysis_guides/main/2023_Exploring_Your_Visium_Data_input_files/optlDA.17p9_rep1_astrogenes.rds","optlDA.17p9_rep1_astrogenes.rds")
 list.files(path = ".")
 
 # define functions ---------------------------------------------------------------
