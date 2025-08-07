@@ -19,4 +19,8 @@ Below is a list of tutorials with notebook files available in Google Colab:
 
 6. [Visium HD Multi-sample Integration Analysis: an R Tutorial in Google Colab](https://www.10xgenomics.com/analysis-guides/tutorial-visium-hd-multi-sample-r-collab) (R) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/10XGenomics/analysis_guides/blob/main/Visium_HD_multi_sample_integration.ipynb)
 
-7. [Getting Started with Xenium In Situ Downstream Analysis in Python SpatialData Ecosystem: A Tutorial in Google Colab](https://www.10xgenomics.com/analysis-guides/xenium-downstream-analysis-in-python-tutorial) (Python) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/10XGenomics/analysis_guides/blob/main/Xenium_5k_data_analysis_journey_python.ipynb) 
+7. [Getting Started with Xenium In Situ Downstream Analysis in Python SpatialData Ecosystem: A Tutorial in Google Colab](https://www.10xgenomics.com/analysis-guides/xenium-downstream-analysis-in-python-tutorial) (Python) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/10XGenomics/analysis_guides/blob/main/Xenium_5k_data_analysis_journey_python.ipynb)
+
+8. Xenium analysis workshop: Analyze a single Xenium sample using Python [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/10XGenomics/analysis_guides/blob/main/Xenium_workshop_single_sample_analysis.ipynb)
+
+9. Xenium analysis workshop: Integrate two Xenium samples using Python [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/10XGenomics/analysis_guides/blob/main/Xenium_workshop_two_sample_intergration.ipynb)
