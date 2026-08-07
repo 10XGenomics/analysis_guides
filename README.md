@@ -30,3 +30,7 @@ Below is a list of tutorials with notebook files available in Google Colab:
 10. [Quality Control and Filtering of 10x Genomics Epi Multiome Data: Two Tutorials in Google Colab](https://www.10xgenomics.com/analysis-guides/tutorials-epi-multiome-qc)
 - Epi Multiome QC tutorial (R) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/10XGenomics/analysis_guides/blob/main/Epi_multiome_QC_tutorial.ipynb)
 - Companion tutorial with interactive visualization (Python) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/10XGenomics/analysis_guides/blob/main/Epi_multiome_QC_interactive_visualization.ipynb)
+
+11. [Subsetting and Recalculating Metrics for Multi-Section Xenium Regions](https://www.10xgenomics.com/analysis-guides/subsetting-and-recalculating-metrics-for-multi-section-xenium-regions)
+- Python script: [subset2zarr.py](https://github.com/10XGenomics/analysis_guides/tree/main/Xenium_subset/Xenium_subset/subset2zarr.py)
+- Xenium Region Subset and Metric Calculation [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/10XGenomics/analysis_guides/blob/main/Xenium_subset/Xenium_subset/Xenium_Region_Subset_and_Metric_Calculation.ipynb])
