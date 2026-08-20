@@ -116,13 +116,14 @@ def main():
     target_xenium_path = os.path.join(args.output, "experiment.xenium")
     
     keys_to_extract = [
-        "major_version", "minor_version", "patch_version", "run_name",
+        "run_name",
         "run_start_time", "region_name", "preservation_method", "cassette_name",
         "slide_id", "panel_type", "panel_design_id", "panel_predesigned_id",
         "panel_designer_version", "panel_name", "panel_organism", "panel_tissue_type",
         "panel_num_targets_predesigned", "panel_num_targets_custom", "chemistry_version",
         "pixel_size", "instrument_sn", "instrument_sw_version", "z_step_size",
-        "well_uuid", "calibration_uuid"
+        "well_uuid", "calibration_uuid", "experiment_uuid", "cassette_uuid",
+        "roi_uuid", "analysis_uuid"
     ]
     
     source_data = {}
@@ -147,17 +148,17 @@ def main():
         target_data['analysis_sw_version'] += "-subset2zarr"
         
     num_cells = query_sdata["table"].shape[0]
-    transcripts_per_cell = float(np.mean(query_sdata["table"].X.sum(axis=1)))
-    num_transcripts = float(query_sdata["table"].X.sum())
-    
+    transcripts_per_cell = int(np.median(query_sdata["table"].X.sum(axis=1)))
+    num_transcripts = int(query_sdata["table"].X.sum())
+
     transcripts_df = query_sdata.points["transcripts"].compute()
-    num_transcripts_high_qv = int((transcripts_df["qv"] >= 20).sum())
-    
+    num_transcripts_high_quality = int((transcripts_df["qv"] >= 20).sum())
+
     target_data.update({
         'num_cells': num_cells,
         'transcripts_per_cell': transcripts_per_cell,
         'num_transcripts': num_transcripts,
-        'num_transcripts_high_qv': num_transcripts_high_qv
+        'num_transcripts_high_quality': num_transcripts_high_quality
     })
     target_data.update(extracted_data)
     
