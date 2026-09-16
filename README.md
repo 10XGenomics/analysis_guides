@@ -34,3 +34,5 @@ Below is a list of tutorials with notebook files available in Google Colab:
 11. [Subsetting and Recalculating Metrics for Multi-Section Xenium Regions](https://www.10xgenomics.com/analysis-guides/subsetting-and-recalculating-metrics-for-multi-section-xenium-regions)
 - Python script: [subset2zarr.py](https://github.com/10XGenomics/analysis_guides/blob/main/Xenium_subset/subset2zarr.py)
 - Xenium Region Subset and Metric Calculation [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/10XGenomics/analysis_guides/blob/main/Xenium_subset/Xenium_Region_Subset_and_Metric_Calculation.ipynb)
+
+12. Single cell downstream analysis in R: ALS vs Wild-type controls [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/10XGenomics/analysis_guides/blob/main/single-cell-workshop-multi-sample-analysis.ipynb)
